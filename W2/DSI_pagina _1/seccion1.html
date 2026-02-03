@@ -1,12 +1,28 @@
-<!doctype html> //tipo de documento
-<html> //indica el inicio del documento
+<!doctype html> <!--tipo de documento-->
+<html> <!--indica el inicio del documento-->
 	
-<head> //inicio de cabeza de documento, en realidad no usa espacio en la pantalla, sino carga los datos de desarrollo
-<meta charset="utf-8"/> //las palabras entre brackets son etiquetas, se suele usar forward-slash para terminar la linea, si la etiqueta es solo una línea
-<title> sección 1 </title> //es lo que aparece en la pestaña del navegador
-</head> //final de cabeza
+<head> <!--inicio de cabeza de documento, en realidad no usa espacio en la pantalla, sino carga los datos de desarrollo-->
+<meta charset="utf-8"/> <!--las palabras entre brackets son etiquetas, se suele usar forward-slash para terminar la linea, si la etiqueta es solo una línea-->
+<title> search </title> <!--es lo que aparece en la pestaña del navegador-->
+</head> <!--final de cabeza-->
 
 <body>
+<body style="background-color: #F5F6F5">
+	<header style="background-image: linear-gradient(darkred, #F5F6F5); color: black; text-align: center;">
+		<img src="imagenes/header_line.png" alt="Linea simple de header">
+		<h1 style="font-size: 3 em">HOME</h1>
+	</header>
+	<nav style="text-align: center; margin-top: 100px">
+	 <!--in order to add a hyperlink, and make an element take you to a different page when clicked, we add <a href="section"> in this case a # was used to indicate an indeterminate link-->
+	<a href="index.html"><img src="imagenes/home.png" alt="icono simple de casa"/></a><!--if i wanted to add a line break, and have the next icon be in a different line, i would add a "<br>" here-->
+	<a href="seccion1.html"> <img src="imagenes/search.png" alt="icono simple de lupa"/></a>
+	<a href="seccion2.html"> <img src="imagenes/explore.png" alt="icono simple de brujula"/></a>
+	<a href="seccion3.html"> <img src="imagenes/profile.png" alt="icono simple de perfil"/></a>
+	</nav> <!--Esta es una etiqueta, la cual indica una sección específica. En este caso, la etiqueta "nav" es común para indicar los botones basicos de navegación-->
+
+
+	
+
 	
 </body>
-</html> //indica el final del documento con /
+</html> <!--indica el final del documento con /-->
