@@ -3,32 +3,75 @@
 	
 <head> <!--inicio de cabeza de documento, en realidad no usa espacio en la pantalla, sino carga los datos de desarrollo-->
 <meta charset="utf-8"/> <!--las palabras entre brackets son etiquetas, se suele usar forward-slash para terminar la linea, si la etiqueta es solo una línea-->
-<title> explore </title> <!--es lo que aparece en la pestaña del navegador-->
+<title> AMS - Diseño Gráfico </title> <!--es lo que aparece en la pestaña del navegador-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<style>
-		nav img {margin-bottom: 16px}
-		footer img {margin: 0px 50px}
+		nav img {margin: 20px; margin-bottom: 0px}
+		footer img {margin: 0px 40px}
+		div#ContenidoDePagina {width: 1358; margin: 40 px; background-color: #ffffff; padding: 40px}
+		div#TextoDePagina{padding: 20px}
 	</style>
 </head> <!--final de cabeza-->
 
-<body style="background-color: #F5F6F5">
-	<header style="background-image: linear-gradient(darkred, #F5F6F5); color: black; text-align: center;">
-		<img src="imagenes/header_line.png" alt="Linea simple de header">
-		<h1 style="font-size: 3 em">EXPLORE</h1>
-	</header>
-	<nav style="text-align: center; margin-top: 100px">
+<body style="background-color: #EFEFEF; font-family: 'Inter', sans-serif;">
+	 <header style="background-color: #DBFE87; color: black; text-align: center;">
+    <img src="imagenes/logo.png" alt="Logo de la marca"> 
+		<h1 style="font-size: 4 em">MI PORTAFOLIO</h1>
+		 	<nav style="text-align: center; margin-top: 20px">
 	 <!--in order to add a hyperlink, and make an element take you to a different page when clicked, we add <a href="section"> in this case a # was used to indicate an indeterminate link-->
-	<a href="index.html"><img src="imagenes/home.png" alt="icono simple de casa"/></a><!--if i wanted to add a line break, and have the next icon be in a different line, i would add a "<br>" here-->
-	<a href="seccion1.html"> <img src="imagenes/search.png" alt="icono simple de lupa"/></a>
-	<a href="seccion2.html"> <img src="imagenes/explore.png" alt="icono simple de brujula"/></a>
-	<a href="seccion3.html"> <img src="imagenes/profile.png" alt="icono simple de perfil"/></a>
+	<a href="index.html"><img src="imagenes/abtMeBtn.png" alt="icono About Me"/></a><!--if i wanted to add a line break, and have the next icon be in a different line, i would add a "<br>" here-->
+	<a href="seccion1.html"> <img src="imagenes/videojuegosBtn.png" alt="icono simple de videojuegos"/></a>
+	<a href="seccion2.html"> <img src="imagenes/DiseñoGráficoHighlighted.png" alt="icono simple de diseño gráfico"/></a>
+	<a href="seccion3.html"> <img src="imagenes/arte3dBtn.png" alt="icono simple de arte 3d"/></a>
 	</nav> <!--Esta es una etiqueta, la cual indica una sección específica. En este caso, la etiqueta "nav" es común para indicar los botones basicos de navegación-->
+	</header>
+	
+	<div id="ContenidoDePagina">
+	<img src="imagenes/portadaAboutMe.png" alt="un retrato de mí" style="float:left; padding: 20px"/>
+			<div id="TextoDePagina">
+	<h2>About Me</h2>
+	<p>Al finalizar el curso el alumno será capaz de aplicar los diversos procesos de programación y de
+		las estructuras de diseño de interfaces, para la construcción de sistemas e interfaces interactivas centradas en el usuario.</p>
+	<h3>My main skills</h3>
+	<ol>
+		<h4>Graphic Design </h4>
+		<ol>
+		<li>Editorial </li>
+		<li>Marketing</li>
+		<li>Packaging</li>
+		<li>Social Media</li>
+		</ol>
+		
+		<h4>Videogame Design</h4>
+		<ol>
+		<li>3D and 2D</li>
+		<li>Marketing</li>
+		<li>Packaging</li>
+		</ol>
+		
+		<h4>3D Art</h4>
+		<ol>
+		<li>Animation</li>
+		<li>Modeling</li>
+		<li>SFX</li>
+		</ol>
+				</ol>
+		</div>
+	</div>
 
-<footer style="text-align: center; background-image: linear-gradient( #F5F6F5, darkred); margin-top: 180px; padding: 36px;"> <!--para separar un elemento del otro se usa el margin, paradarse espacio a los elementos dentro del diseño se usa el adding-->
+	
+<footer style="text-align: center; background-color: #FFC1DE; margin-top: 40px; padding: 20px; clear: both;"> <!--para separar un elemento del otro se usa el margin, paradarse espacio a los elementos dentro del diseño se usa el adding-->
 		<a href="http://www.x.com" alt="liga para entrar a x" target="_blank">
 		<img src="imagenes/BtnX.png" alt="icono de la red social x"/></a>
 		<a href="http://www.pinterest.com" alt="liga para entrar al pinterest del profe" target="_blank"><img src="imagenes/BtnPint.png" alt="icono de la red social pinterest"/></a>
 		<a href="http://www.instagram.com" alt="liga para entrar a instagram" target="_blank"><img src="imagenes/BtnInst.png" alt="icono de la red social instagram"/></a>
 </footer>
+
+
+	
+
 	
 </body>
 </html> <!--indica el final del documento con /-->

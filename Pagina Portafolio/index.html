@@ -3,7 +3,10 @@
 	
 <head> <!--inicio de cabeza de documento, en realidad no usa espacio en la pantalla, sino carga los datos de desarrollo-->
 <meta charset="utf-8"/> <!--las palabras entre brackets son etiquetas, se suele usar forward-slash para terminar la linea, si la etiqueta es solo una línea-->
-<title> AMS Portafolio </title> <!--es lo que aparece en la pestaña del navegador-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<title> AMS Portafolio </title> <!--es lo que aparece en la pestaña del navegador-->
 	<style>
 		nav img {margin: 20px; margin-bottom: 0px}
 		footer img {margin: 0px 40px}
@@ -12,25 +15,24 @@
 	</style>
 </head> <!--final de cabeza-->
 
-<body style="background-color: #EFEFEF;">
+<body style="background-color: #EFEFEF; font-family: 'Inter', sans-serif;">
 	 <header style="background-color: #DBFE87; color: black; text-align: center;">
     <img src="imagenes/logo.png" alt="Logo de la marca"> 
-		<h1 style="font-size: 4 em">MI PORTAFOLIO</h1>
-		 	<nav style="text-align: center; margin-top: 90px">
+		<h1 style="font-size: 64 px">MI PORTAFOLIO</h1>
+		 	<nav style="text-align: center; margin-top: 20px">
 	 <!--in order to add a hyperlink, and make an element take you to a different page when clicked, we add <a href="section"> in this case a # was used to indicate an indeterminate link-->
-	<a href="#"><img src="imagenes/abtMeBtn.png" alt="icono About Me"/></a><!--if i wanted to add a line break, and have the next icon be in a different line, i would add a "<br>" here-->
+	<a href="#"><img src="imagenes/abtMeHighlighted.png" alt="icono About Me"/></a><!--if i wanted to add a line break, and have the next icon be in a different line, i would add a "<br>" here-->
 	<a href="seccion1.html"> <img src="imagenes/videojuegosBtn.png" alt="icono simple de videojuegos"/></a>
 	<a href="seccion2.html"> <img src="imagenes/diseñoGráficoBtn.png" alt="icono simple de diseño gráfico"/></a>
 	<a href="seccion3.html"> <img src="imagenes/arte3dBtn.png" alt="icono simple de arte 3d"/></a>
 	</nav> <!--Esta es una etiqueta, la cual indica una sección específica. En este caso, la etiqueta "nav" es común para indicar los botones basicos de navegación-->
 	</header>
 	
-	<div id="ContenidoDePágina">
-	<img src="imagenes/portadaAboutMe.png" alt="un retrato de mí" style="float:left; padding: 20px"/>
-			<div id="TextoDePagina">
+    <img src="imagenes/portadaAboutMe.png" alt="un retrato de mí" style="float:left; padding: 20px"/>
+    <div id="ContenidoDePagina">
+<div id="TextoDePagina">
 	<h2>About Me</h2>
-	<p>Al finalizar el curso el alumno será capaz de aplicar los diversos procesos de programación y de
-		las estructuras de diseño de interfaces, para la construcción de sistemas e interfaces interactivas centradas en el usuario.</p>
+	<p>Soy Alexander Morales, estudiante del ultimo año de Lic. en Diseño, Animación y Arte Digital. </p>
 	<h3>My main skills</h3>
 	<ol>
 		<h4>Graphic Design </h4>
@@ -44,8 +46,8 @@
 		<h4>Videogame Design</h4>
 		<ol>
 		<li>3D and 2D</li>
-		<li>Marketing</li>
-		<li>Packaging</li>
+		<li>Asset Creation</li>
+		<li>Coding</li>
 		</ol>
 		
 		<h4>3D Art</h4>
