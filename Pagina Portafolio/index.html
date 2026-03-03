@@ -2,14 +2,14 @@
 <html> <!--indica el inicio del documento-->
 	
 <head> <!--inicio de cabeza de documento, en realidad no usa espacio en la pantalla, sino carga los datos de desarrollo-->
-<meta charset="utf-8"/> <!--las palabras entre brackets son etiquetas, se suele usar forward-slash para terminar la linea, si la etiqueta es solo una línea-->
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> <!--las palabras entre brackets son etiquetas, se suele usar forward-slash para terminar la linea, si la etiqueta es solo una línea-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<title> AMS Portafolio </title> <!--es lo que aparece en la pestaña del navegador-->
 	<style>
-		nav img {margin: 20px; margin-bottom: 0px}
-		footer img {margin: 0px 40px}
+		nav img {margin: 20px; margin-bottom: 0px; max-width:100%; height:auto;}
+		footer img {margin: 0px 40px; max-width:100%; height:auto;}
 		div#ContenidoDePagina {width: 1720px; margin: 40px; background-color: #ffffff; padding: 40px; border-radius: 15px;}
 		div#TextoDePagina{padding: 20px;}
 		
@@ -35,7 +35,7 @@
 </head> <!-- fin de cabeza-->
 	
 	<body style="background-color: #EFEFEF; font-family: 'Inter', sans-serif;">
-		<header style="background-color: #DBFE87; color: black; text-align: center;">
+		<header style="background-color: #DBFE87; color: black; text-align: center">
 			<img src="imagenes/logo.png" alt="Logo de la marca"> 
 			<h1 style="font-size: 64 px">MI PORTAFOLIO</h1>
 			<input type="checkbox" id="check">
@@ -50,32 +50,33 @@
 	</header> <!--final de cabeza-->
 		
 		<div id="ContenidoDePagina">
-			<img src="imagenes/portadaAboutMe.png" alt="un retrato de mí" style="float:left; padding: 20px"/>
+			<img src="imagenes/portadaAboutMe.png" alt="un retrato de mí" style="float:left; padding: 20px; max-width:100%;height:auto"/>
 			<div id="TextoDePagina">
-	<h2>About Me</h2>
-	<p>Soy Alexander Morales, estudiante del ultimo año de Lic. en Diseño, Animación y Arte Digital. </p>
-	<h3>My main skills</h3>
-	<ul>
-		<h4>Graphic Design </h4>
+	<h2>About</h2>
+	<p>Soy Alexander Morales, estudiante del último año de Lic. en Diseño, Animación y Arte Digital. En mi portafolio puedes encontrar proyectos que demuestran mi experiencia, así como mi visión y estilo en el mundo del diseño.  </p>
+	<h3>Skills</h3>
+				<ul>
+		<h4>Diseño Gráfico</h4>
 		<ul>
-		<li>Editorial </li>
-		<li>Marketing</li>
-		<li>Packaging</li>
-		<li>Social Media</li>
+			<li>Editorial</li>
+			<li>Marketing</li>
+			<li>Diseño de empaque</li>
+			<li>Redes Sociales</li>
 		</ul>
 		
-		<h4>Videogame Design</h4>
+		<h4>Diseño de videojuegos</h4>
 		<ul>
-		<li>3D and 2D</li>
-		<li>Asset Creation</li>
-		<li>Coding</li>
+			<li>3D and 2D</li>
+			<li>Programación en C# y C++</li>
+			<li>Creación de assets</li>
+			<li>Diseño de niveles</li>
 		</ul>
 		
 		<h4>3D Art</h4>
 		<ul>
-		<li>Animation</li>
-		<li>Modeling</li>
-		<li>SFX</li>
+			<li>Animación</li>
+			<li>Modelado</li>
+			<li>SFX</li>
 		</ul>
 				</ul>
 		</div>
